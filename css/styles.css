@@ -1,0 +1,17 @@
+body{
+	text-align: center;
+	background-color: black;
+	color: green;
+	font-size: 20px;
+}
+input{
+	text-align: center;
+	background-color: black;
+	color: blue;
+	border-color: gold;
+	font-size: 17px;
+	border-radius: 20px;
+}
+.input{
+	margin-top: 10px;
+}
