@@ -1,7 +1,7 @@
 from sys import argv
 from bottle import *
 from pymysql import *
-db=Connect(host="tsuts.tskoli.is",user="0207002620",password="snotra2000",db="0207002620_vef2verk10",)
+db=Connect(host="tsuts.tskoli.is",user="0202002190",password="H2csgo1500",db="0202002190_vef2v10",)
 cursor=db.cursor()
 cursor.execute("select * from user")
 
@@ -49,7 +49,7 @@ def login():
         villa={"villa":"Notendanafn eða/og lykilorð rangt"}
         return template("templates/villa.tpl",villa)
 
-@route('/Velkominn')
+@route('/velkominn')
 def login():
     return template("templates/leynisida.tpl")
 
